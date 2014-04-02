@@ -5,7 +5,6 @@ MODEL_FORMULATION = -DLANL_FORMULATION
 dummy:
 	( $(MAKE) error )
 
-xlf:
 	( $(MAKE) all \
 	"FC_PARALLEL = mpxlf90" \
 	"CC_PARALLEL = mpcc" \
